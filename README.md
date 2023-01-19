@@ -7,3 +7,22 @@
   <a href="https://github.com/andreinaoliveira/Netflix-Automantion-with-Cypress/network/members"><img src="https://img.shields.io/github/forks/andreinaoliveira/Netflix-Automantion-with-Cypress?style=social"></a>
   <a href="https://github.com/andreinaoliveira"><img src="https://img.shields.io/github/followers/andreinaoliveira?style=social"></a>
 </div>
+
+# 💬 Sobre
+Projeto em andamento que busca criar um conjunto de testes no site da Netflix através do Cypress visando aplicar o conhecimento com a tecnologia.
+
+<b>Features:</b>
+- Home
+  - Acessar tela 
+  - Checar tela 
+- Login
+  - Acessar tela 
+  - Checar tela 
+  - Login com senha inválida
+  - Login com  usuário inválido
+  - Login com usuário válido
+- Browse
+  - Acessar tela
+  - Checar tela
+  
+# 💾 Instalação
