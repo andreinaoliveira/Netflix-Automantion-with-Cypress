@@ -28,8 +28,8 @@ Projeto em andamento que busca criar um conjunto de testes no site da Netflix at
 # 💾 Instalação
 - Node
 - Clonar o projeto ```git clone https://github.com/andreinaoliveira/Netflix-Automantion-with-Cypress.git```
-- Rodar o comando pelo cmd na pasta do projeto ```npm i cypress --save-dev```
-- Criar na raiz um arquivo chamado "cypress.env.json" contendo os dados da sua conta na netflix no caso de vc querer executar os testes que estão após o login. Caso nao insira, os testes estarão limitados as páginas no qual não precisa estar logado 
+- Rodar o comando pelo cmd na pasta do projeto ```npm i```
+- <b>[Opcional]</b> Criar na raiz um arquivo chamado ```cypress.env.json``` contendo os dados da sua conta na netflix no caso de vc querer executar os testes que estão após o login. Caso nao insira, os testes estarão limitados as páginas no qual não precisa estar logado 
 ```
 {
     "userValid":{
