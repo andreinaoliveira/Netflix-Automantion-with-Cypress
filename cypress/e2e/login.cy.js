@@ -3,14 +3,16 @@ import browse from '../pages/Browse'
 import loginFactory from '../factories/LoginFactory'
 
 describe('Go and Check Login page', () => {
-    it('Access Netflix login page', () => {
+    beforeEach(() => {
         login.go()
+    })
+
+    it('Access Netflix login page', () => {
         login.check()
     })
 
     it('User with invalid password', () => {
         var user = loginFactory.userInvalidPassword()
-        login.go()
         login.fillForm(user)
         login.submit()
         login.expectedMessage('redefina sua senha.')
@@ -18,7 +20,6 @@ describe('Go and Check Login page', () => {
 
     it('User with invalid account', () => {
         var user = loginFactory.userInvalidAccount()
-        login.go()
         login.fillForm(user)
         login.submit()
         login.expectedMessage('crie um nova conta')
@@ -26,7 +27,6 @@ describe('Go and Check Login page', () => {
 
 
     it('User with valid account', () => {
-        login.go()
         login.fillForm(Cypress.env('userValid'))
         login.submit()
         browse.check()
