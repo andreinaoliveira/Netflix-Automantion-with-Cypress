@@ -10,20 +10,6 @@
 
 ## 💬 Sobre
 Projeto em andamento que busca criar um conjunto de testes no site da Netflix através do Cypress visando aplicar o conhecimento com a tecnologia.
-
-<b>Features:</b>
-- Home
-  - Acessar tela 
-  - Checar tela 
-- Login
-  - Acessar tela 
-  - Checar tela 
-  - Login com senha inválida
-  - Login com  usuário inválido
-  - Login com usuário válido
-- Browse
-  - Acessar tela
-  - Checar tela
   
 ## 💾 Instalação
 - Node
@@ -40,6 +26,7 @@ Projeto em andamento que busca criar um conjunto de testes no site da Netflix at
 ```
 ## 💻 Cenários de teste
 ### Home
+- Acessar tela
 <div align="center">
   <table>
     <tr>
@@ -55,10 +42,42 @@ Projeto em andamento que busca criar um conjunto de testes no site da Netflix at
         <img src=".jpg" width="300px" height="170px">
       </td>
       <td>
-          <img src=".gif" width="300px" height="170px">
+          <img src="https://user-images.githubusercontent.com/51168329/214357725-9e2ac0af-30d7-4a1b-91e8-e7bbdc2cdcc4.gif" width="600px">
       </td>
     </tr>
   </table>
 </div>
+- Checar tela
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <b>Caso de Teste</b>
+      </td>
+      <td>
+        <b>Teste</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src=".jpg" width="300px" height="170px">
+      </td>
+      <td>
+          <img src="https://user-images.githubusercontent.com/51168329/214357725-9e2ac0af-30d7-4a1b-91e8-e7bbdc2cdcc4.gif" width="600px">
+      </td>
+    </tr>
+  </table>
+</div>
+
 ### Login
+#### Acessar tela
+- Checar tela
+- Login com senha inválida
+- Login com  usuário inválido
+- Login com usuário válido
+
 ### Browse
+- Acessar tela
+- Checar tela
+
+
