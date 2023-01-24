@@ -8,7 +8,7 @@
   <a href="https://github.com/andreinaoliveira"><img src="https://img.shields.io/github/followers/andreinaoliveira?style=social"></a>
 </div>
 
-# 💬 Sobre
+## 💬 Sobre
 Projeto em andamento que busca criar um conjunto de testes no site da Netflix através do Cypress visando aplicar o conhecimento com a tecnologia.
 
 <b>Features:</b>
@@ -25,7 +25,7 @@ Projeto em andamento que busca criar um conjunto de testes no site da Netflix at
   - Acessar tela
   - Checar tela
   
-# 💾 Instalação
+## 💾 Instalação
 - Node
 - Clonar o projeto ```git clone https://github.com/andreinaoliveira/Netflix-Automantion-with-Cypress.git```
 - Rodar o comando pelo cmd na pasta do projeto ```npm i```
@@ -38,3 +38,27 @@ Projeto em andamento que busca criar um conjunto de testes no site da Netflix at
     }
 }
 ```
+## 💻 Cenários de teste
+### Home
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <b>Caso de Teste</b>
+      </td>
+      <td>
+        <b>Teste</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src=".jpg" width="300px" height="170px">
+      </td>
+      <td>
+          <img src=".gif" width="300px" height="170px">
+      </td>
+    </tr>
+  </table>
+</div>
+### Login
+### Browse
