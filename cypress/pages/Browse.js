@@ -1,10 +1,17 @@
+const ref = {
+    url: '/browse',
+    title: 'div h1'
+}
+const exp = {
+    url: 'https://www.netflix.com/browse',
+    title: 'Quem está assistindo?'
+}
+
 class Browse {
     go() {
-        crypto.visit('/browse')
-    }
-    check() {
-        cy.url().should('be.equal', 'https://www.netflix.com/browse')
-        cy.get('div h1').should('have.text', 'Quem está assistindo?')
+        cy.visit(ref.url)
+        cy.url().should('be.equal', exp.url)
+        cy.get(ref.title).should('have.text', exp.title)
     }
 }
 
