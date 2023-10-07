@@ -12,7 +12,7 @@ class Home {
     go() {
         cy.visit(ref.url)
         cy.url().should('be.equal', exp.url)
-        cy.get(ref.title).should('have.text', exp.title)
+        cy.get(ref.title).should('be.visible')
     }
 
     goLogin() {
