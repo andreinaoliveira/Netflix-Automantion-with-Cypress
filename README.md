@@ -19,7 +19,8 @@ Projeto em andamento que busca criar um conjunto de testes no site da Netflix at
 ```
 {
     "userValid":{
-        "email": "SEU_EMAIL_AQUI",
+        "id": "SEU_EMAIL_AQUI",
+        "name": "NOME_DO_PERFIL_AQUI"
         "password": "SUA_SENHA_AQUI"
     }
 }
