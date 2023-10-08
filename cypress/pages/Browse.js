@@ -1,7 +1,7 @@
 const ref = {
     url: '/browse',
     title: 'div h1',
-    profile: 'profile-name'
+    profile: '.profile-name'
 }
 const exp = {
     url: 'https://www.netflix.com/browse',
@@ -16,9 +16,8 @@ class Browse {
     }
 
     chooseProfile(user) {
-        cy.get(ref.profile)
+        cy.get(ref.profile).contains(user.name)
         .should('be.visible')
-        .should('have.text', user.name)
         .click()
     }
 }
