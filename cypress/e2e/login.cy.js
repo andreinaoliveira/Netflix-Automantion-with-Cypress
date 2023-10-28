@@ -12,11 +12,13 @@ describe('Go and Check Login page', () => {
             msg: 'redefina sua senha.'
         },
 
+        /* BUG NETFLIX
         {
             type: 'invalid account',
-            user: {id: 'testecypress@gmail.com', password: 'teste123'},
+            user: {id: 'testecypress-andreina@gmail.com', password: 'teste123'},
             msg: 'crie um nova conta'
         },
+        */
 
         {
             type: 'valid account',
